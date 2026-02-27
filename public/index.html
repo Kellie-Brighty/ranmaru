@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$RANMARU - The Legendary Shiba</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Nunito:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="floating-characters">
+      <span class="char c1">収益化</span>
+      <span class="char c2">停止</span>
+      <span class="char c3">ワン</span>
+      <span class="char c4">ニヤッ</span>
+    </div>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="bounce-in">$RANMARU</h1>
+        <p class="subtitle">
+          Just wronged on Youtube. Now taking over the blockchain!
+        </p>
+
+        <div class="image-container tilt">
+          <img src="ranmaru.jpg" alt="Ranmaru Dog" class="main-img" />
+          <div class="glow"></div>
+        </div>
+
+        <div class="ca-container pop-in">
+          <div class="ca-box">
+            <span class="ca-text" id="caAddress"
+              >0x57238cf63B1319b4caCDf68431e3a211a8F1aea8</span
+            >
+            <button id="copyBtn" class="copy-btn">COPY CA</button>
+          </div>
+          <div id="copyToast" class="toast">Address Copied!</div>
+        </div>
+
+        <div class="socials slide-up">
+          <a
+            href="https://t.me/Ranmaruoneth"
+            target="_blank"
+            class="social-btn tg"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224-2.52 11.93c-.152.66-.54.823-1.096.505l-3.033-2.238-1.464 1.41a.7.7 0 0 1-.555.275l.218-3.084 5.613-5.07c.244-.22-.054-.34-.38-.117l-6.936 4.364-2.992-.934c-.65-.205-.662-.65.137-.96l11.69-4.507c.54-.2 1.01.127.828 1.056z"
+              />
+            </svg>
+            Telegram
+          </a>
+          <a
+            href="https://x.com/ranmarufrontier/status/2027322888123224448?s=46"
+            target="_blank"
+            class="social-btn x"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              />
+            </svg>
+            Twitter / X
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="story-section">
+        <div class="story-content slide-up">
+            <h2 class="section-title">The Legend of Ranmaru</h2>
+            
+            <div class="story-grid">
+                <div class="story-card">
+                    <img src="ranmaru_story_1.png" alt="Ranmaru wronged" class="story-img">
+                    <p class="story-text">Meet Ranmaru, a popular dog who has just been wronged on Youtube. For years, she brought joy to millions of fans, only to face unfair demonetization (<span class="highlight">収益化停止</span>).</p>
+                </div>
+                
+                <div class="story-card">
+                    <img src="ranmaru_story_2.png" alt="Ranmaru breaking chains" class="story-img">
+                    <p class="story-text">But legends never die! Ranmaru is launched on Ethereum to popularize her moments and preserve the love and affection shown to her by fans and family worldwide. We are taking the power back!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="chart-section">
+      <h2 class="section-title zoom-in">Chart <span class="emoji">📈</span></h2>
+      <div class="iframe-container pop-in">
+        <iframe
+          src="https://dexscreener.com/ethereum/0x85bdba79dbaddfa523f5c33c24138b1597c80fb6?embed=1&theme=dark"
+          frameborder="0"
+          allow="clipboard-write"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <p>Always do your own research. Degen safe.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
